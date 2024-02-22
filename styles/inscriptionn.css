@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: #29d9d5; /* Bleu turquoise pour le fond global */
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    padding-top: 80px; /* Ajustez cette valeur à la hauteur de votre en-tête */
+}
+
+.inscription-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* La hauteur totale moins la hauteur de l'en-tête */
+}
+
+.container-with-images {
+    display: flex;
+    justify-content: center; /* Centrer le contenu horizontalement */
+    align-items: stretch; /* Les enfants s'étireront pour occuper la hauteur disponible */
+    margin: 0 auto; /* Centrer le conteneur dans la page */
+    width: 100%; /* Prendre toute la largeur */
+    max-width: 1200px; /* Ou la largeur maximale souhaitée */
+}
+
+.form-container {
+    margin: 0 20px; /* Espace autour du formulaire */
+    flex: 0 0 700px; /* Ajustez cette valeur pour augmenter la largeur fixe du formulaire */
+    background-color: #333; /* Gris foncé pour le fond du conteneur */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 40px; /* Augmentez le padding pour plus d'espace à l'intérieur du formulaire */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre les éléments du formulaire verticalement */
+}
+
+.side-image {
+    flex: 1; /* Les images continueront de remplir l'espace restant */
+    width: auto; /* La largeur s'ajustera automatiquement */
+    max-width: none; /* Assurez-vous que la max-width ne limite pas la taille des images */
+}
+
+h2 {
+    color: #29d9d5; /* Bleu turquoise pour les textes */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 4rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    color: #29d9d5;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+.btn-inscription {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.btn-inscription {
+    background-color: #29d9d5;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+}
+
+.btn-inscription:hover {
+    background-color: #238c8a;
+}
+
+
+
+/* Header Styles */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
+
+/* ... Autres styles CSS ... */
+
+/* Style du lien qui déclenche le menu déroulant */
+.dropbtn {
+    /* Styles du bouton ici */
+}
+
+/* Cache le contenu du menu déroulant par défaut */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; /* Couleur du header */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Affiche le menu déroulant au survol ou au focus */
+.menu-item:hover .dropdown-content,
+.menu-item:focus-within .dropdown-content {
+    display: block;
+}
+
+/* Style des liens dans le menu déroulant */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style des liens au survol dans le menu déroulant */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* ... Autres styles CSS ... */
+
+body,
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #333; /* Fond gris foncé */
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff; /* Rêves en blanc */
+    font-size: 2rem;
+    font-weight: bold; /* Logo en gras */
+}
+
+.logo span {
+    color: #29d9d5; /* d'Ailleurs en bleu turquoise */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu li a {
+    color: #fff; /* Liens en blanc */
+    font-size: 1rem;
+    transition: color 0.3s;
+    text-decoration: none; /* Enlève le soulignement */
+    font-weight: bold; /* Liens de menu en gras */
+}
+
+.menu li a:hover {
+    color: #29d9d5; /* Hover en bleu turquoise */
+    text-decoration: none; /* Assure qu'il n'y a pas de soulignement au survol */
+}
+
+.btn-reservation {
+    padding: 10px 20px;
+    border: 2px solid #29d9d5; /* Cadre en bleu turquoise */
+    color: #29d9d5; /* Texte en bleu turquoise */
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold; /* Bouton en gras */
+}
+
+.btn-reservation:hover {
+    background-color: #29d9d5; /* Fond en bleu turquoise au survol */
+    color: #fff; /* Texte en blanc au survol */
+}
+
+
+
+
+/* Footer Styles */
+
+/* Ajouter un espace au-dessus du footer */
+section:last-of-type {
+    margin-bottom: 50px; /* Ajustez cette valeur selon vos besoins */
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.social-links a:hover {
+    color: #29d9d5;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+.footer-section a:hover {
+    color: #29d9d5; /* Change la couleur au survol */
+}
+

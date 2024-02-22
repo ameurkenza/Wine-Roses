@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" type="text/css" href="./styles/inscriptionn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-n/yFDZk8Dnx/6XzBfek57GG0rQHod1hdy2UxkF9xTGXE8fRfuYhE2SkO8Ru+LW7A/jPjAICPmGv2K+H4r/z1lw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+
+            <div class="header-container">
+                <div class="logo">Rêves <span>d'Ailleurs</span></div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li class="menu-item">
+                            <a href="#destinations" class="dropbtn">Destinations</a>
+                            <div class="dropdown-content">
+                                <a href="#algerie">Algérie</a>
+                                <a href="#bali">Bali</a>
+                                <a href="#londres">Londres</a>
+                                <a href="#sydney">Sydney</a>
+                            </div>
+                        </li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="#reservation" class="btn-reservation">Réserver maintenant</a>
+            </div>
+
+    </header>
+    <main>
+        <section class="inscription-section">
+            <div class="container-with-images">
+                <img src="./imagees/ville.jpg" alt="Image de gauche" class="side-image">
+                <div class="form-container">
+                    <h2>Réservation</h2>
+                <form class="inscription-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dateNaissance">Date de naissance :</label>
+                        <input type="date" id="dateNaissance" name="dateNaissance" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="typeVoyage">Type de voyage :</label>
+                        <select id="typeVoyage" name="typeVoyage">
+                            <option value="aventure">Aventure</option>
+                            <option value="detente">Détente</option>
+                            <option value="culturel">Culturel</option>
+                            <option value="romantique">Romantique</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="destination">Destinations :</label>
+                        <select id="destination" name="destination">
+                            <option value="Algerie">Algerie</option>
+                            <option value="Bali">Bali</option>
+                            <option value="Grece">Grece</option>
+                            <option value="New York">New York</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dateDepart">Date de départ :</label>
+                        <input type="date" id="dateDepart" name="dateDepart" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dateRetour">Date de retour :</label>
+                        <input type="date" id="dateRetour" name="dateRetour" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="forfait">Forfait :</label>
+                        <select id="forfait" name="forfait">
+                            <option value="standard">Standard</option>
+                            <option value="premium">Premium</option>
+                            <option value="vip">VIP</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="codepromo">Code Promo :</label>
+                        <input type="text" id="codepromo" name="codepromo" required>
+                    </div>
+                    <button type="submit" class="btn-inscription">Reserver</button>
+                    </div>
+                   <img src="./imagees/paradis.jpg" alt="Image de droite" class="side-image">
+                    </div>
+          </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contacts</h3>
+                <p>Adresse: 123 Rue du Rêve, Gatineau, Canda</p>
+                <p>Téléphone: +1234567890</p>
+                <p>Email: voyager@revedailleurs.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
