@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">Rêves <span>d'Ailleurs</span></div>
+            <nav>
+                <ul class="menu">
+                  <li><a href="#">Accueil</a></li>
+                  <li><a href="#">À propos</a></li>
+                  <li class="menu-item dropdown">
+                    <a href="#" class="dropbtn">Destinations</a>
+                    <div class="dropdown-content">
+                      <a href="#">Algérie</a>
+                      <a href="#">Bali</a>
+                      <a href="#">Londres</a>
+                      <a href="#">Sydney</a>
+                    </div>
+                  </li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            <a href="#reservation" class="btn-reservation">Réserver maintenant</a>
+        </div>
+    </header>
+    <main>
+        <div class="contact-container">
+            <h2>CONTACTEZ-NOUS</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet :</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+        <div class="images-container">
+            <img src="./imagees/izan.jpg" alt="Image de droite" class="side-image">
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+        <p>© 2024 Rêves d'Ailleurs. Tous droits réservés.</p>
+        <div class="footer-menu">
+            <a href="#">Accueil</a>
+            <a href="#">À propos</a>
+            <a href="#">Destinations</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="footer-social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
