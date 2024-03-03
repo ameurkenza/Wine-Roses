@@ -9,29 +9,36 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="logo">Rêves <span>d'Ailleurs</span></div>
-            <nav>
-                <ul class="menu">
-                  <li><a href="#">Accueil</a></li>
-                  <li><a href="#">À propos</a></li>
-                  <li class="menu-item dropdown">
-                    <a href="#" class="dropbtn">Destinations</a>
+            <div class="logo">
+                Rêves <span>d'Ailleurs</span>
+            </div>
+            <nav class="menu">
+                <li><a href="#">Accueil</a></li>
+                <li class="menu-item">
+                    <a href="#destinations" class="dropbtn">Destinations</a>
                     <div class="dropdown-content">
-                      <a href="#">Algérie</a>
-                      <a href="#">Bali</a>
-                      <a href="#">Londres</a>
-                      <a href="#">Sydney</a>
+                        <a href="./Algerie.html">Algérie</a>
+                        <a href="./Newyork.html">New York</a>
+                        <a href="./Londres.html">Londres</a>
+                        <a href="./Sydney.html">Sydney</a>
                     </div>
-                  </li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav>
-            <a href="#reservation" class="btn-reservation">Réserver maintenant</a>
+                </li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">A propos</a></li>
+            </nav>
+            <a href="./reservation.html" class="btn-reservation-link">
+                <button class="btn-reservation">Réserver</button>
+            </a>
         </div>
     </header>
     <main>
         <div class="contact-container">
-            <h2>CONTACTEZ-NOUS</h2>
+            <div class="image-container">
+                <img src="./imagees/contact.jpg" alt="Description de l'image" />
+                <div class="text-on-image">
+                    CONTACTEZ-NOUS
+                </div>
+            </div>
             <form id="contact-form">
                 <div class="form-group">
                     <label for="name">Nom :</label>
@@ -52,25 +59,11 @@
                 <button type="submit">Envoyer</button>
             </form>
         </div>
-        <div class="images-container">
-            <img src="./imagees/izan.jpg" alt="Image de droite" class="side-image">
-        </div>
     </main>
     <footer>
-        <div class="footer-container">
-        <p>© 2024 Rêves d'Ailleurs. Tous droits réservés.</p>
-        <div class="footer-menu">
-            <a href="#">Accueil</a>
-            <a href="#">À propos</a>
-            <a href="#">Destinations</a>
-            <a href="#">Contact</a>
+        <div class="footer-content">
+            <p>© 2024 Rêves d'Ailleurs. Tous droits réservés.</p>
         </div>
-        <div class="footer-social-media">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-        </div>
-    </div>
     </footer>
 </body>
 </html>

@@ -1,17 +1,17 @@
 /* Importation unique des polices Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
 
-/* Styles de base pour html et body */
+
 html, body {
     font-family: 'Raleway', sans-serif;
-    height: 100vh; /* Hauteur complète pour le viewport */
+    height: 100vh; 
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #29d9d5; /* Bleu turquoise */
-    color: #ecf0f1; /* Couleur claire pour le texte */
+    background-color: #29d9d5; 
+    color: #ecf0f1; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,47 +19,69 @@ body {
     padding-top: 100px
 }
 
-/* Styles principaux */
+
 main {
-    flex: 1; /* Permet au contenu principal de croître et de prendre l'espace disponible */
+    
+    flex: 1; 
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto; /* Centrer le contenu principal si moins de 1200px */
-    margin-top: 20px; /* Ajoute une marge en haut pour espacer du header */
-    display: flex; /* Utilisation de Flexbox */
-    flex-direction: row; /* Alignement horizontal des éléments */
-    justify-content: space-between; /* Espacement entre le formulaire et l'image */
-    align-items: flex-start; /* Alignement au début pour les éléments de hauteur différente */
+    margin: 0 auto; 
+    margin-top: 20px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
+
+
+
+
+.image-container {
+    position: relative; 
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.text-on-image {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #29d9d5; 
+    font-size: 24px; 
+    background-color: #333; 
+    padding: 10px 20px; 
+    border: 2px solid #29d9d5; 
+    border-radius: 10px; 
+    
+}
+
 
 
 
 .contact-container, .images-container {
-    background-color: #333; /* Gris foncé pour les conteneurs */
+    background-color: #333; 
     padding: 40px;
     border-radius: 5px;
-    flex: 1; /* Les conteneurs prennent une part égale de l'espace disponible */
-    max-height: 50vh; /* Hauteur maximale pour chaque conteneur */
-    overflow: auto; /* Ajoute une barre de défilement si le contenu dépasse */
+    flex: 1; 
+    overflow: visible; 
 }
 
-.images-container {
+
+.parent-container {
     display: flex;
-    justify-content: center; /* Centre l'image dans le conteneur */
-    flex-shrink: 0; /* Empêche le conteneur de l'image de rétrécir en dessous de la taille de son contenu */
+    flex-direction: row; 
+    align-items: stretch; 
 }
 
-.images-container img {
-    max-width: 100%; /* L'image ne dépasse pas son conteneur */
-    max-height: 50vh; /* Limite la hauteur de l'image pour éviter de chevaucher le formulaire */
-    height: auto; /* Maintient les proportions de l'image */
-    object-fit: contain; /* Garde les proportions de l'image sans la déformer */
-}
 
-h2 {
-    color: #29d9d5; /* Bleu turquoise */
-    text-align: center;
-}
+
 
 .form-group {
     margin-bottom: 30px;
@@ -78,8 +100,8 @@ textarea {
     margin: 5px 0 15px 0;
     display: inline-block;
     border: none;
-    background: #95a5a6; /* Gris clair */
-    color: #333; /* Gris foncé pour le texte */
+    background: #95a5a6; 
+    color: #333; 
     border-radius: 4px;
 }
 
@@ -89,12 +111,12 @@ input[type="email"] {
 }
 
 textarea {
-    resize: none; /* Empêche l'utilisateur de redimensionner le textarea */
+    resize: none; 
     height: 150px;
 }
 
 button {
-    background-color: #29d9d5; /* Bleu turquoise */
+    background-color: #29d9d5; 
     color: white;
     padding: 12px 20px;
     border: none;
@@ -106,7 +128,7 @@ button {
 }
 
 button:hover {
-    opacity: 1; /* Augmente l'opacité au survol pour un effet visuel */
+    opacity: 1; 
 }
 
 
@@ -157,7 +179,7 @@ button:hover {
 /* Styles du header */
 header {
     width: 100%;
-    background-color: #333; /* Fond gris foncé */
+    background-color: #333; 
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -172,32 +194,32 @@ header {
 }
 
 .logo {
-    color: #fff; /* Texte en blanc */
+    color: #fff;
     font-size: 2rem;
-    font-weight: bold; /* Logo en gras */
+    font-weight: bold; 
 }
 
 .logo span {
-    color: #29d9d5; /* Élément 'span' en bleu turquoise */
+    color: #29d9d5; 
 }
 
-/* Styles pour le bouton de réservation */
+
 .btn-reservation {
     padding: 10px 20px;
-    border: 2px solid #29d9d5; /* Cadre en bleu turquoise */
-    color: #29d9d5; /* Texte en bleu turquoise */
+    border: 2px solid #fff; 
+    color: #fff; 
     font-size: 1rem;
     border-radius: 4px;
-    font-weight: bold; /* Bouton en gras */
+    font-weight: bold; 
     transition: background-color 0.3s, color 0.3s;
 }
 
 .btn-reservation:hover {
-    background-color: #29d9d5; /* Fond en bleu turquoise au survol */
-    color: #fff; /* Texte en blanc au survol */
+    background-color: #29d9d5; 
+    color: #333; 
 }
 
-/* Style général du menu */
+
 .menu {
     list-style: none;
     margin: 0;
@@ -208,77 +230,81 @@ header {
     padding: 15px 20px;
 }
 
-/* Style des éléments de menu */
+
 .menu li {
     margin: 0 10px;
 }
 
-/* Style des liens du menu */
+
 .menu li a {
-    color: #fff; /* Liens en blanc */
+    color: #fff; 
     font-size: 1rem;
-    text-decoration: none; /* Enlève le soulignement */
-    font-weight: bold; /* Liens de menu en gras */
+    text-decoration: none; 
+    font-weight: bold; 
     transition: color 0.3s;
-    padding: 8px; /* Ajouté pour un meilleur clic */
+    padding: 8px;
 }
 
-/* Hover en bleu turquoise */
+
 .menu li a:hover {
     color: #29d9d5;
 }
 
-/* ... Autres styles CSS ... */
 
 
 
-/* Style du conteneur déroulant */
+
+
 .dropdown {
-    position: relative; /* Nécessaire pour positionner le contenu déroulant par rapport à ce conteneur */
-    display: inline-block; /* Pour que le menu s'intègre dans le flux de texte/éléments */
+    position: relative; 
+    display: inline-block; 
 }
 
-/* Style du bouton déroulant */
+
 .dropbtn {
-    background-color: #333; /* Couleur de fond du bouton */
-    color: #29d9d5; /* Couleur du texte du bouton */
-    padding: 16px; /* Espacement autour du texte du bouton */
-    font-size: 16px; /* Taille de la police du bouton */
-    border: none; /* Aucune bordure pour le bouton */
-    cursor: pointer; /* Change le curseur en pointeur pour indiquer que c'est cliquable */
+    background-color: #333; 
+    color: #29d9d5;
+    padding: 16px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
 }
 
-/* Style du contenu déroulant (caché par défaut) */
+
 .dropdown-content {
-    display: none; /* Cache le contenu par défaut */
-    position: absolute; /* Positionne absolument par rapport à son parent positionné (.dropdown) */
-    background-color: #333; /* Couleur de fond du contenu déroulant */
-    min-width: 160px; /* Largeur minimale du contenu déroulant */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Ombre pour un effet 3D */
-    z-index: 1; /* S'assure que le contenu déroulant apparaît au-dessus des autres éléments */
+    display: none; 
+    position: absolute; 
+    background-color: #333;
+    min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);; 
+    z-index: 1; 
 }
 
-/* Style pour les liens à l'intérieur du contenu déroulant */
+.menu-item:hover .dropdown-content {
+    display: block;
+}
+
+
 .dropdown-content a {
-    color: black; /* Couleur du texte des liens */
-    padding: 12px 16px; /* Espacement autour des liens */
-    text-decoration: none; /* Aucun soulignement pour les liens */
-    display: block; /* Les liens prennent toute la largeur disponible pour plus de facilité de clic */
+    color: black; 
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block; 
 }
 
-/* Changement de couleur de fond des liens au survol */
+
 .dropdown-content a:hover {
-    background-color: #333; /* Couleur de fond au survol */
+    background-color: #333; 
 }
 
-/* Affichage du contenu déroulant au survol */
+
 .dropdown:hover .dropdown-content {
-    display: block; /* Affiche le contenu déroulant au survol */
+    display: block; 
 }
 
-/* Changement de couleur de fond du bouton au survol */
+
 .dropdown:hover .dropbtn {
-    background-color: #333; /* Couleur de fond du bouton au survol */
+    background-color: #333; 
 }
 
 
@@ -296,72 +322,32 @@ header {
 
 
 
-/* Styles du footer */
-.footer {
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
     width: 100%;
-    background-color: #95a5a6; /* Couleur de fond gris */
-    color: #ecf0f1; /* Couleur de texte claire pour contraster avec le fond foncé */
-    padding: 20px 0; /* Espacement vertical à l'intérieur du footer */
+    position: relative; 
+    bottom: 0;
+    left: 0;
 }
 
-.footer-container {
+.footer-content {
     max-width: 1200px;
-    margin: 0 auto; /* Centrage du conteneur */
-    display: flex;
-    justify-content: space-between; /* Espacement entre les éléments du footer */
-    align-items: center; /* Alignement vertical des éléments */
-    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne sur de petits écrans */
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.footer p {
-    margin: 0; /* Suppression de la marge par défaut pour le paragraphe */
-    font-size: 0.9rem; /* Taille de police légèrement réduite pour le texte du footer */
-}
-
-.footer-menu,
-.footer-social-media {
-    list-style: none; /* Suppression des puces de liste */
-    display: flex;
+.footer-content p {
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
-.footer-menu a,
-.footer-social-media a {
-    text-decoration: none; /* Suppression du soulignement */
-    margin: 0 10px; /* Espacement horizontal entre les liens */
-    font-size: 0.9rem; /* Taille de police légèrement réduite pour les liens */
-}
-
-.footer-menu a {
-    color: #ecf0f1; /* Couleur claire pour les liens du menu */
-}
-
-.footer-social-media a {
-    color: #29d9d5; /* Couleur bleu turquoise pour les liens des réseaux sociaux */
-}
-
-.footer-menu a:hover,
-.footer-social-media a:hover {
-    color: #ecf0f1; /* Couleur claire au survol pour un effet inverse */
-}
-
-/* Répondre aux petits écrans */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .footer-menu,
-    .footer-social-media {
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-    
-    .footer-menu a,
-    .footer-social-media a {
-        margin: 5px; /* Espacement réduit pour les petits écrans */
+@media (max-width: 767px) {
+    .footer-content {
+        padding: 0 10px;
     }
 }
-

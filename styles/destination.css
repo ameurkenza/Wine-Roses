@@ -3,8 +3,35 @@ body {
     margin: 0;
     padding: 0;
     background-color: #29d9d5;
-    padding-top: 70px; /* Ajouté pour compenser la hauteur du header fixe */
+    padding-top: 70px; 
 }
+
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    font-size: 36px;
+    color: #333;
+}
+
+
+.description {
+    font-weight: bold; 
+    text-align: center; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    font-size: 20px;
+    color: #333;
+}
+
+
+
 
 .destination {
     display: flex;
@@ -146,7 +173,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     width: 100%;
-    position: relative; /* Le footer se positionne par rapport au flux normal du document */
+    position: relative; 
     bottom: 0;
     left: 0;
 }
