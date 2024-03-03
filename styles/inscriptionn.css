@@ -197,17 +197,21 @@ header {
 
 .btn-reservation {
     padding: 10px 20px;
-    border: 2px solid #29d9d5; 
-    color: #29d9d5; 
+    border: 2px solid #29d9d5;
+    color: #29d9d5;
+    background-color: #333;
     font-size: 1rem;
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s;
-    font-weight: bold; 
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .btn-reservation:hover {
-    background-color: #29d9d5; 
-    color: #fff; 
+    background-color: #29d9d5;
+    color: #fff;
 }
 
 
@@ -234,6 +238,11 @@ footer {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+}
+
+footer a {
+    color: #29d9d5; /* Couleur bleue pour les liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
 }
 
 @media (max-width: 767px) {

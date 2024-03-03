@@ -190,6 +190,15 @@ footer {
     line-height: 1.6;
 }
 
+footer a {
+    color: #29d9d5; /* Couleur bleue pour les liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol pour indiquer la possibilité de cliquer */
+}
+
 @media (max-width: 767px) {
     .footer-content {
         padding: 0 10px;
