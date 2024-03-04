@@ -2,7 +2,8 @@
 
 Bienvenue sur le dépôt officiel du site web du restaurant Roses&Wine. Notre site est une porte d'entrée numérique pour nos invités désireux d'explorer le voyage savoureux qui les attend dans notre établissement.
 
-![Restaurant Roses&Wine](URL_DE_VOTRE_IMAGE)
+ ![Description de l'image](https://github.com/ameurkenza/Projet-Web-Client/blob/main/pics/Capture%20d%E2%80%99%C3%A9cran%202024-03-04%20104945.png)
+
 
 ## Pages du Site
 
