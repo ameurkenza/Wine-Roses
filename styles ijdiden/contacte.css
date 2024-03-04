@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e8e4;
+    color: #5A1A29;
+}
+main {
+    padding-bottom: 60px; /* Ajoutez une marge inférieure égale à la hauteur de votre pied de page */
+}
+
+header {
+    background: #5A1A29;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Georgia', serif; 
+    font-size: 3em; 
+    font-weight: bold; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+header h1 {
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #5A1A29;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #8d3c4f;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+main {
+    
+    flex: 1; 
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    margin-top: 20px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+
+
+
+.image-container {
+    position: relative; 
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.text-on-image {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #5A1A29; 
+    font-size: 24px; 
+    background-color: #fff; 
+    padding: 10px 20px; 
+    border: 2px solid #5A1A29; 
+    border-radius: 10px; 
+    
+}
+
+
+
+
+.contact-container, .images-container {
+    background-color: #5A1A29; 
+    padding: 40px;
+    border-radius: 5px;
+    flex: 1; 
+    overflow: visible; 
+}
+
+
+.parent-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch; 
+}
+
+
+
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background: #8d3c4f; 
+    color: #fff; 
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 50px;
+}
+
+textarea {
+    resize: none; 
+    height: 150px;
+}
+
+button {
+    background-color: #fff; 
+    color: #5A1A29;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #5A1A29;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #FFD700; /* Exemple de couleur pour le lien, choisissez ce qui convient à votre design */
+    text-decoration: none; /* Optionnel : supprime le soulignement des liens */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Optionnel : ajoute un soulignement au survol pour une meilleure accessibilité */
+}
