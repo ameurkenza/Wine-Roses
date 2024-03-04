@@ -1,26 +1,21 @@
-# Projet-Web-Client
-# Reved'Ailleurs - Agence de voyage
+# Restaurant Roses&Wine
 
-Bienvenue sur le dépôt GitHub du projet d'école "Reved'Ailleurs", une agence de voyage fictive créée pour présenter des destinations de rêve à travers le monde.
+Bienvenue sur le dépôt officiel du site web du restaurant Roses&Wine. Notre site est une porte d'entrée numérique pour nos invités désireux d'explorer le voyage savoureux qui les attend dans notre établissement.
 
-## À propos de Reved'Ailleurs
+![Restaurant Roses&Wine](URL_DE_VOTRE_IMAGE)
 
-Reved'Ailleurs est un site web conçu pour simuler une expérience utilisateur pour une agence de voyage. Le site propose une variété de destinations, des informations utiles pour les voyageurs et un système de réservation simplifié.
+## Pages du Site
 
-## Caractéristiques
+Notre site web est conçu avec soin en utilisant uniquement HTML et CSS pour offrir une expérience utilisateur optimale et accessible. Voici ce que vous pouvez y trouver :
 
-- **Page d'accueil** : Une introduction accueillante avec des visuels attrayants des destinations proposées.
-- **Destinations** : Quatre pages dédiées aux destinations que nous offrons, chacune avec des descriptions détaillées, des images et des informations pratiques.
-- **Réservations** : Un formulaire simple permettant aux utilisateurs de réserver leur prochain voyage de rêve.
-- **Contact** : Une page pour contacter l'agence, incluant un formulaire pour les demandes d'informations ou de support.
-- **À propos** : Des informations sur l'agence, notre philosophie et pourquoi choisir Reved'Ailleurs pour une expérience de voyage inoubliable.
+- **Page d'Accueil** : Un accueil chaleureux vous attend pour vous donner un aperçu de ce qui fait l'essence de Roses&Wine.
+- **Page Menu** : Plongez dans notre menu méticuleusement élaboré qui promet une aventure culinaire exquise.
+- **Formulaire de Contact** : Nous accordons une grande importance à la communication. Contactez-nous pour toute question, retour ou simplement pour dire bonjour.
+- **Formulaire de Réservation** : Réserver une table n'a jamais été aussi simple. Réservez votre place pour une expérience culinaire inoubliable.
+- **À Propos** : Découvrez l'histoire et les caractéristiques uniques qui font de Roses&Wine bien plus qu'un simple restaurant.
 
-## Technologies utilisées
+Le pied de chaque page contient un lien vers ce dépôt GitHub, assurant la transparence et un accès libre au code source.
 
-- **HTML** : Pour structurer le contenu de notre site web et organiser les informations de manière logique.
-- **CSS** : Pour styliser notre site web, incluant la mise en page, les couleurs et les polices pour créer une expérience utilisateur attrayante et réactive.
+## Note
 
-## Installation
-
-Pour cloner le dépôt et visualiser le site localement, suivez ces étapes :
-
+Ce projet aurait dû être un travail de groupe, mais en raison de circonstances imprévues concernant mon binôme, j'ai choisi de soumettre mes propres travaux antérieurs dans un fichier zip et de créer un nouveau site distinct pour éviter toute redondance avec le travail soumis par mon binôme. Ce site est le fruit de mes efforts individuels, utilisant uniquement HTML et CSS, et reflète mon engagement à présenter un travail authentique et personnel.
