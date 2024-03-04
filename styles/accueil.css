@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background: #5A1A29;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Georgia', serif; 
+    font-size: 3em; 
+    font-weight: bold; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+header h1 {
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #5A1A29;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #8d3c4f;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajout d'un fond semi-transparent pour la lisibilité */
+}
+
+.hero-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.reserve-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5A1A29;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.reserve-button:hover {
+    background-color: #000;
+}
+
+
+footer {
+    background-color: #5A1A29;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #FFD700; /* Exemple de couleur pour le lien, choisissez ce qui convient à votre design */
+    text-decoration: none; /* Optionnel : supprime le soulignement des liens */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Optionnel : ajoute un soulignement au survol pour une meilleure accessibilité */
+}
