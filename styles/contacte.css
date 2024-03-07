@@ -1,3 +1,7 @@
+/*style generaux*/
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,8 +10,13 @@ body {
     color: #5A1A29;
 }
 main {
-    padding-bottom: 60px; /* Ajoutez une marge inférieure égale à la hauteur de votre pied de page */
+    padding-bottom: 60px; 
 }
+
+
+
+/*style pour le header*/
+
 
 header {
     background: #5A1A29;
@@ -53,6 +62,8 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #8d3c4f;
 }
+
+/*style pour le body*/
 
 main {
     padding: 20px;
@@ -173,36 +184,7 @@ button:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*style pour le footer*/
 
 
 footer {
@@ -215,10 +197,10 @@ footer {
     width: 100%;
 }
 footer a {
-    color: #FFD700; /* Exemple de couleur pour le lien, choisissez ce qui convient à votre design */
-    text-decoration: none; /* Optionnel : supprime le soulignement des liens */
+    color: #FFD700; 
+    text-decoration: none; 
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optionnel : ajoute un soulignement au survol pour une meilleure accessibilité */
+    text-decoration: underline; 
 }

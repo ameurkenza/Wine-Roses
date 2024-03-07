@@ -1,17 +1,6 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f2e8e4;
-    color: #5A1A29;
-    margin: 0;
-    padding: 0;
-}
+/*style pour le header*/
 
-footer {
-    background-color: #5A1A29;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
+
 
 header {
     background: #5A1A29;
@@ -58,6 +47,20 @@ nav ul li a:hover {
     background-color: #8d3c4f;
 }
 
+
+
+/*style pour le contenu principale*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2e8e4;
+    color: #5A1A29;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 main {
     padding: 20px;
     display: flex;
@@ -86,14 +89,14 @@ main {
     background-color: #5A1A29;
     padding: 40px;
     border-radius: 5px;
-    max-width: 500px; /* Set a max-width for the form */
+    max-width: 500px; 
     margin: auto;
     width: 100%;
 }
 
 .image-container img {
-    max-width: 100%; /* Ceci assure que l'image ne dépasse pas son conteneur */
-    height: auto; /* Ceci maintient le ratio de l'image */
+    max-width: 100%; 
+    height: auto;
 }
 
 
@@ -118,7 +121,7 @@ button {
     padding: 10px;
     border-radius: 4px;
     border: none;
-    margin-bottom: 10px; /* Add some space between the inputs */
+    margin-bottom: 10px; 
 }
 
 input[type="text"],
@@ -133,7 +136,7 @@ input[type="number"] {
 textarea {
     background-color: #8d3c4f;
     color: #fff;
-    resize: vertical; /* Allows resizing vertically */
+    resize: vertical; 
 }
 
 button {
@@ -148,16 +151,26 @@ button:hover {
     color: #fff;
 }
 
+
+
+/*style pour le footer*/
 footer {
     position: relative;
     bottom: 0;
     width: 100%;
 }
 footer a {
-    color: #FFD700; /* Exemple de couleur pour le lien, choisissez ce qui convient à votre design */
-    text-decoration: none; /* Optionnel : supprime le soulignement des liens */
+    color: #FFD700; 
+    text-decoration: none; 
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optionnel : ajoute un soulignement au survol pour une meilleure accessibilité */
+    text-decoration: underline; 
+}
+
+footer {
+    background-color: #5A1A29;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }

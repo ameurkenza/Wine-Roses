@@ -1,3 +1,7 @@
+/*style pour le header*/
+
+
+
 header {
     background: #5A1A29;
     color: #ffffff;
@@ -44,9 +48,12 @@ nav ul li a:hover {
 }
 
 
+/*style pour le body*/
+
+
 body {
-    background-color: #f2e8e4; /* Fond du corps de la page */
-    font-family: Arial, sans-serif; /* Police de caractère générale */
+    background-color: #f2e8e4; 
+    font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
   }
@@ -55,59 +62,59 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px; /* Espace entre les rangées de cartes */
-    padding: 40px 0; /* Padding vertical pour la section */
+    gap: 40px; 
+    padding: 40px 0; 
   }
   
   .row {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espace entre les cartes dans une rangée */
+    gap: 20px; 
   }
   
   .card {
-    background-color: #8d3c4f; /* Couleur de fond des cartes */
-    color: white; /* Couleur du texte */
-    padding: 20px; /* Padding intérieur des cartes */
-    border-radius: 10px; /* Bordures arrondies des cartes */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Ombre portée */
-    width: calc(50vw - 40px); /* Largeur calculée pour s'adapter à deux cartes par ligne avec l'espacement */
-    max-width: 300px; /* Largeur maximale pour éviter les cartes trop larges */
-    overflow: hidden; /* Cache le débordement pour maintenir l'effet de bordure arrondie */
-    position: relative; /* Nécessaire pour positionner le contenu absolument à l'intérieur */
+    background-color: #8d3c4f; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: calc(50vw - 40px); 
+    max-width: 300px; 
+    overflow: hidden; 
+    position: relative; 
   }
   
   .card img {
-    width: 100%; /* Les images prennent toute la largeur de la carte */
-    height: auto; /* Hauteur automatique pour maintenir les proportions */
-    border-radius: 8px; /* Bordures arrondies pour les images */
-    object-fit: cover; /* S'assure que les images couvrent l'espace disponible */
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    object-fit: cover; 
   }
   
   .content {
-    position: absolute; /* Positionnement absolu pour superposer le texte sur l'image */
-    bottom: 0; /* Aligné en bas de la carte */
-    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour la lisibilité */
-    color: white; /* Couleur du texte */
-    width: 100%; /* Pleine largeur de la carte */
-    padding: 10px; /* Padding autour du texte */
-    transform: translateY(100%); /* Cache initialement le contenu en bas */
-    transition: transform 0.5s ease; /* Transition douce pour le survol */
-    border-radius: 0 0 10px 10px; /* Bordures arrondies en bas */
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    width: 100%; 
+    padding: 10px; 
+    transform: translateY(100%); 
+    transition: transform 0.5s ease; 
+    border-radius: 0 0 10px 10px; 
   }
   
   .card:hover .content {
-    transform: translateY(0); /* Déplace le contenu pour le révéler au survol */
-  }
+    transform: translateY(0); 
+  } 
   
   h2 {
-    margin: 0 0 10px 0; /* Marge pour le titre */
-    font-size: 1.5em; /* Taille du titre */
+    margin: 0 0 10px 0; 
+    font-size: 1.5em; 
   }
   
   p {
-    margin: 0; /* Marge pour le paragraphe */
-    font-size: 1em; /* Taille du texte */
+    margin: 0; 
+    font-size: 1em; 
   }
 
   
@@ -190,7 +197,7 @@ body {
 
 
 
-
+/*style pour le footer*/
 
 footer {
     text-align: center;
@@ -202,10 +209,10 @@ footer {
 }
 
 footer a {
-    color: #FFD700; /* Exemple de couleur pour le lien, choisissez ce qui convient à votre design */
-    text-decoration: none; /* Optionnel : supprime le soulignement des liens */
+    color: #FFD700; 
+    text-decoration: none; 
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optionnel : ajoute un soulignement au survol pour une meilleure accessibilité */
+    text-decoration: underline; 
 }
