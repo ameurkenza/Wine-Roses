@@ -19,7 +19,7 @@ Notre site web est conçu avec soin en utilisant uniquement HTML et CSS pour off
 
 Le pied de chaque page contient un lien vers ce dépôt GitHub, assurant la transparence et un accès libre au code source.
 
-##Note 
+## Note 
 
 Dans ce projet, notre équipe de trois personnes a développé un site web axé sur le vin. Olivier Roberge était responsable de la conception de la page des événements et de la page de contact, facilitant la communication et l'accès aux informations pour les utilisateurs. Alexi Charland a créé le menu et la page de confirmation, optimisant l'expérience utilisateur dans la sélection et la validation des choix de vin, tout en collaborant avec Olivier sur la page "À propos". Kenza a élaboré les autres pages du site, garantissant une cohérence et une esthétique attrayante. Ensemble, nous avons utilisé des technologies web avancées pour réaliser un site fonctionnel et esthétiquement plaisant, reflétant notre compréhension des meilleures pratiques de développement collaboratif.
 
