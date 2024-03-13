@@ -3,25 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Évènements du Restaurant</title>
-    <nav>
-        <ul>
-            <li><a href="./accueil.html">Accueil</a></li>
-            <li><a href="./menu.html">Menu</a></li>
-            <li><a href="./reserver.html">Réservations</a></li>
-            <li><a href="./contacte.html">Contact</a></li>
-            <li><a href="./aproposs.html">A propos</a></li>
-            <li><a href="./evenement.html">Evenement</a></li>
-        </ul>
-    </nav>
+   <nav>
+    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #880a0a;">
+        <li style="float: left;">
+            <a href="./accueil.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Accueil</a>
+        </li>
+        <li style="float: left;">
+            <a href="./menu.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Menu</a>
+        </li>
+        <li style="float: left;">
+            <a href="./reserver.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Réservations</a>
+        </li>
+        <li style="float: left;">
+            <a href="./contacte.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Contact</a>
+        </li>
+        <li style="float: left;">
+            <a href="./aproposs.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">A propos</a>
+        </li>
+        <li style="float: left;">
+            <a href="./Évènements.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Évènements</a>
+        </li>
+    </ul>
+</nav>
+
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: #fff0f0; 
+            background: #5A1A29; 
         }
         .header {
-            background: #a80c26; 
+            background: #5A1A29; 
             color: #ffffff;
             padding: 20px 0;
             text-align: center;
@@ -38,7 +51,7 @@
             background: #fdf1f2; 
             padding: 15px;
             margin-bottom: 20px;
-            border-left: 5px solid #910a20; 
+            border-left: 5px solid #5A1A29; 
         }
         .event h3 {
             color: #333333;
@@ -48,12 +61,27 @@
             display: block;
             margin-bottom: 10px;
             font-style: italic;
-            color: #555555;
+            color: #5A1A29;
         }
         .event p {
             margin: 0;
             color: #666666;
         }
+        .footer-style {
+    background-color: #5A1A29; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+
+.footer-style a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.footer-style a:hover {
+    text-decoration: underline;
+}
+
     </style>
 </head>
 <body>
@@ -87,10 +115,11 @@
         <body>
            
 
-            <footer>
+            <footer class="footer-style">
                 <p>© 2024 Restaurant Wine&amp;Roses. Tous droits réservés.</p>
                 <p>Mon projet sur GitHub : <a href="https://github.com/ameurkenza/Projet-Web-Client.git" target="_blank">Visitez le dépôt</a></p>
             </footer>
+            
           
         </body>
         </html>
