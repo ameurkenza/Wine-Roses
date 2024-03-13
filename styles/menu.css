@@ -1,8 +1,3 @@
-
-
-
-
-
 /*style pour le header*/
 
 header {
@@ -94,6 +89,22 @@ main p {
 
 section {
     margin-bottom: 40px;
+
+}
+
+
+article img {
+    display: none;
+    width: 300px; 
+    position: absolute; 
+    z-index: 100; 
+    left: 100%
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+ }
+
+article h3:hover + img {
+    display: block;
 }
 
 /*style pour le footer*/
@@ -120,3 +131,4 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
