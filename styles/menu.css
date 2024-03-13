@@ -131,4 +131,21 @@ footer {
     padding: 20px;
     text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+article img {
+    display: none;
+    width: 300px; 
+    position: absolute; 
+    z-index: 100; 
+    left: 100%
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+
+article h3:hover + img {
+    display: block;
+}
+>>>>>>> 9b7feff30e3fd2ab262130b09b9f61d4f1f20681

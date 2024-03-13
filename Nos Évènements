@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Évènements du Restaurant</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff0f0; /* Light pink background */
+        }
+        .header {
+            background: #a80c26; /* A stronger pink for the header */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+        .content {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .event {
+            background: #fdf1f2; /* Very light pink background for events */
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 5px solid #910a20; /* Pink accent border */
+        }
+        .event h3 {
+            color: #333333;
+            margin: 0 0 10px 0;
+        }
+        .event time {
+            display: block;
+            margin-bottom: 10px;
+            font-style: italic;
+            color: #555555;
+        }
+        .event p {
+            margin: 0;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Nos Évènements</h1>
+    </div>
+    <div class="content">
+        <div class="event">
+            <h3>Soirée Dégustation de Vins</h3>
+            <time>15 Mars 2024, 19h00</time>
+            <p>Rejoignez-nous pour une soirée de dégustation de vins exclusifs. Découvrez des vins uniques accompagnés de fromages et de hors-d'œuvres locaux.</p>
+        </div>
+        <div class="event">
+            <h3>Atelier de Cuisine</h3>
+            <time>22 Mars 2024, 17h00</time>
+            <p>Participez à notre atelier de cuisine interactif et apprenez à préparer des plats signature de notre chef. Le matériel et les ingrédients sont fournis.</p>
+        </div>
+        <div class="event">
+            <h3>Festival Gastronomique</h3>
+            <time>30 Mars 2024, 12h00</time>
+            <p>Ne manquez pas notre festival gastronomique annuel. Savourez une variété de plats spéciaux, des démonstrations culinaires et bien plus encore.</p>
+        </div>
+        <img src="c:\Users\olivi\OneDrive\Desktop\image.png" alt="Wine Selection" style="width:100%; display:block; margin-top:20px;">
+
+
+        <!DOCTYPE html>
+        <html lang="fr">
+        <head>
+            <!-- ... existing head content ... -->
+        </head>
+        <body>
+            <!-- ... existing body content ... -->
+            
+            <!-- Footer begins -->
+            <footer style="background-color: #333; color: white; text-align: center; padding: 20px 0; width: 100%;">
+                <p>Restaurant Le Gourmet</p>
+                <p>123 Rue de la Cuisine, 75001 Paris, France</p>
+                <p>Téléphone: +33 1 23 45 67 89</p>
+                <p>Email: contact@legourmet.com</p>
+                <p>&copy; 2024 Restaurant Le Gourmet. Tous droits réservés.</p>
+            </footer>
+            <!-- Footer ends -->
+        </body>
+        </html>
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
