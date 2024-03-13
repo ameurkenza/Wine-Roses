@@ -20,4 +20,3 @@ Le pied de chaque page contient un lien vers ce dépôt GitHub, assurant la tran
 
 ## Note
 
-Ce projet aurait dû être un travail de groupe, mais en raison de circonstances imprévues concernant mon binôme, j'ai choisi de soumettre mes propres travaux antérieurs dans un fichier zip et de créer un nouveau site distinct pour éviter toute redondance avec le travail soumis par mon binôme. Ce site est le fruit de mes efforts individuels, utilisant uniquement HTML et CSS, et reflète mon engagement à présenter un travail authentique et personnel.
