@@ -15,7 +15,7 @@ Notre site web est conçu avec soin en utilisant uniquement HTML et CSS pour off
 - **Formulaire de Contact** : Nous accordons une grande importance à la communication. Contactez-nous pour toute question, retour ou simplement pour dire bonjour.
 - **Formulaire de Réservation** : Réserver une table n'a jamais été aussi simple. Réservez votre place pour une expérience culinaire inoubliable.
 - **À Propos** : Découvrez l'histoire et les caractéristiques uniques qui font de Roses&Wine bien plus qu'un simple restaurant.
-- **Evenement** : Une page qui montre quelque un des evenement du restaurant 
+- **Événement** : Une page qui montre quelque un des evenement du restaurant 
 
 Le pied de chaque page contient un lien vers ce dépôt GitHub, assurant la transparence et un accès libre au code source.
 
