@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Évènements du Restaurant</title>
+    <nav>
+        <ul>
+            <li><a href="./accueil.html">Accueil</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./reserver.html">Réservations</a></li>
+            <li><a href="./contacte.html">Contact</a></li>
+            <li><a href="./aproposs.html">A propos</a></li>
+            <li><a href="./evenement.html">Evenement</a></li>
+        </ul>
+    </nav>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -77,12 +87,9 @@
         <body>
            
 
-            <footer style="background-color: #333; color: white; text-align: center; padding: 20px 0; width: 100%;">
-                <p>Restaurant Le Gourmet</p>
-                <p>123 Rue de la Cuisine, 75001 Paris, France</p>
-                <p>Téléphone: +33 1 23 45 67 89</p>
-                <p>Email: contact@legourmet.com</p>
-                <p>&copy; 2024 Restaurant Le Gourmet. Tous droits réservés.</p>
+            <footer>
+                <p>© 2024 Restaurant Wine&amp;Roses. Tous droits réservés.</p>
+                <p>Mon projet sur GitHub : <a href="https://github.com/ameurkenza/Projet-Web-Client.git" target="_blank">Visitez le dépôt</a></p>
             </footer>
           
         </body>
