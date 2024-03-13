@@ -18,5 +18,6 @@ Notre site web est conçu avec soin en utilisant uniquement HTML et CSS pour off
 
 Le pied de chaque page contient un lien vers ce dépôt GitHub, assurant la transparence et un accès libre au code source.
 
-## Note
+##Note 
+
 
