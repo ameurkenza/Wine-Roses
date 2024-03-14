@@ -15,9 +15,18 @@ Notre site web est conçu avec soin en utilisant uniquement HTML et CSS pour off
 - **Formulaire de Contact** : Nous accordons une grande importance à la communication. Contactez-nous pour toute question, retour ou simplement pour dire bonjour.
 - **Formulaire de Réservation** : Réserver une table n'a jamais été aussi simple. Réservez votre place pour une expérience culinaire inoubliable.
 - **À Propos** : Découvrez l'histoire et les caractéristiques uniques qui font de Roses&Wine bien plus qu'un simple restaurant.
+- **Événement**: Découvrez notre page d'événements où nous mettons en avant une sélection d'occasions spéciales organisées par notre restaurant. Des dégustations de vin exclusives et autre. Notre établissement offre une variété d'expériences culinaires et culturelles. Consultez notre calendrier et réservez votre place pour ces moments uniques dès maintenant.
+
+
+
+
+
+
 
 Le pied de chaque page contient un lien vers ce dépôt GitHub, assurant la transparence et un accès libre au code source.
 
-## Note
+## Note 
 
-Ce projet aurait dû être un travail de groupe, mais en raison de circonstances imprévues concernant mon binôme, j'ai choisi de soumettre mes propres travaux antérieurs dans un fichier zip et de créer un nouveau site distinct pour éviter toute redondance avec le travail soumis par mon binôme. Ce site est le fruit de mes efforts individuels, utilisant uniquement HTML et CSS, et reflète mon engagement à présenter un travail authentique et personnel.
+Dans ce projet, notre équipe de trois personnes a développé un site web axé sur le vin. Olivier Roberge était responsable de la conception de la page des événements et de la page de contact, facilitant la communication et l'accès aux informations pour les utilisateurs. Alexi Charland a créé le menu et la page de confirmation, optimisant l'expérience utilisateur dans la sélection et la validation des choix de vin, tout en collaborant avec Olivier sur la page "À propos". Kenza a élaboré les autres pages du site, garantissant une cohérence et une esthétique attrayante. Ensemble, nous avons utilisé des technologies web avancées pour réaliser un site fonctionnel et esthétiquement plaisant, reflétant notre compréhension des meilleures pratiques de développement collaboratif.
+
+
