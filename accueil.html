@@ -5,53 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wine&amp;Roses</title>
     <link rel="stylesheet" href="./styles/accueil.css">
+    <script src="./script/accueil.js"></script>
 </head>
 <body>
     <header>
-        <h1>Wine&amp;Roses</h1>
+        <a href="./accueil.html" style="text-decoration: none; color: white;">
+            <h1>Wine&amp;Roses</h1>
+        </a>
         <nav>
             <ul>
-                <li><a href="./accueil.html">Accueil</a></li>
-                <li><a href="./menu.html">Menu</a></li>
-                <li><a href="./reserver.html">Réservations</a></li>
-                <li><a href="./contacte.html">Contact</a></li>
-                <li><a href="./aproposs.html">A propos</a></li>
-                <li><a href="./evenement.html">Evenement</a></li>
+                <li><a href="../accueil.html">Accueil</a></li>
+                <li><a href="./html_pages/menu.html">Menu</a></li>
+                <li><a href="./html_pages/reserver.html">Réservations</a></li>
+                <li><a href="./html_pages/contacte.html">Contact</a></li>
+                <li><a href="./html_pages/aproposs.html">A propos</a></li>
+                <li><a href="./html_pages/evenement.html">Evenement</a></li>
+                <li><a href="./html_pages/jeu.html">Quiz Vin&amp;Code Privilège</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="hero">
-        <img src="./pics/accueil.jpg" alt="1ere image de mon accueil" class="hero-image">
-        <div class="hero-text">
-            <h1>Bienvenue à Wine&amp;Roses</h1>
-            <p>Découvrez les saveurs exquises de notre cuisine</p>
+        <div id="welcome-message">
+            <span>B</span><span>i</span><span>e</span><span>n</span><span>v</span><span>e</span><span>n</span><span>u</span><span>e</span>
+            <span>à</span>
+            <span>W</span><span>i</span><span>n</span><span>e</span>
+            <span>&amp;</span>
+            <span>R</span><span>o</span><span>s</span><span>e</span><span>s</span>
         </div>
-    </div>
-
-    <section class="features">
-        <div class="feature-item">
-            <img src="./pics/roses.jpg" alt="Feature 1">
-            <h2>Escapade Romantique</h2>
-            <p>Savourez une expérience culinaire qui éveille les sens et célèbre l'amour.</p>
-
-        </div>
-        <div class="feature-item">
-            <img src="./pics/vinrouge.png" alt="Feature 2">
-            <h2>Vins de Qualité</h2>
-            <p>Une sélection de vins fins pour accompagner vos repas.</p>
-        </div>
-        <div class="feature-item">
-            <img src="./pics/reservation.jpg" alt="Feature 3">
-            <h2>Ambiance Unique</h2>
-            <p>Profitez d'une expérience inoubliable dans un cadre magnifique.</p>
-        </div>
-    </section>
-
-    <div class="reservation">
-        <button onclick="location.href='./reserver.html';">Réserver</button>
-    </div>
+            <div class="card-row">
+                <div class="card small-card">
+                    <img src="./pics/escapaderomantique.jpeg" alt="Description petite image 1">
+                    <div class="card-content">
+                        <h3>Escapade Romantique</h3>
+                        <p>Une expérience culinaire qui éveille les sens et célèbre l'amour.</p>
+                    </div>
+                </div>
+                <div class="card small-card">
+                    <img src="./pics/vinrouge.jpg" alt="Description petite image 2">
+                    <div class="card-content">
+                        <h3>Vins de Qualité</h3>
+                        <p>Une sélection de vins fins pour accompagner vos repas.</p>
+                    </div>
+                </div>
+                <div class="card small-card">
+                    <img src="./pics/salle.jpg" alt="Description petite image 3">
+                    <div class="card-content">
+                        <h3>Ambiance Unique</h3>
+                        <p>Une expérience inoubliable dans un cadre magnifique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reservation-invite">
+                <div class="reservation-button">
+                    <a href="./html_pages/reserver.html" class="btn">Réservez Maintenant</a>
+                </div>
+            </div>
     </main>
 
     <footer>

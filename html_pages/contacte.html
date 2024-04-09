@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Midnight</title>
-    <link rel="stylesheet" href="./styles/contacte.css">
+    <link rel="stylesheet" href="../styles/contacte.css">
+    <script src="../script/contact.js"></script>
 </head>
 <body>
     <header>
-        <h1>Wine&amp;Roses</h1>
+        <a href="../accueil.html" style="text-decoration: none; color: white;">
+            <h1>Wine&amp;Roses</h1>
+        </a>
         <nav>
             <ul>
-                <li><a href="./accueil.html">Accueil</a></li>
-                <li><a href="./menu.html">Menu</a></li>
-                <li><a href="./reserver.html">Réservations</a></li>
-                <li><a href="./contacte.html">Contact</a></li>
-                <li><a href="./aproposs.html">A propos</a></li>
-                <li><a href="./evenement.html">Evenement</a></li>
+                <li><a href="../accueil.html">Accueil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reserver.html">Réservations</a></li>
+                <li><a href="contacte.html">Contact</a></li>
+                <li><a href="aproposs.html">A propos</a></li>
+                <li><a href="evenement.html">Evenement</a></li>
+                <li><a href="jeu.html">Quiz Vin&amp;Code Privilège</a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +28,7 @@
     <main>
         <div class="contact-container">
             <div class="image-container">
-                <img src="./pics/contact.jpg" alt="Description de l'image">
+                <img src="../pics/contact.jpg" alt="Description de l'image">
                 <div class="text-on-image">
                     CONTACTEZ-NOUS
                 </div>
@@ -47,6 +51,7 @@
                     <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
                 <button type="submit">Envoyer</button>
+                <p id="success-message" style="display: none; color: green;"></p>
             </form>
         </div>
     </main>

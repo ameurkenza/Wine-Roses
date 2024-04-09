@@ -216,3 +216,28 @@ footer a {
 footer a:hover {
     text-decoration: underline; 
 }
+
+
+
+
+
+
+
+
+.pop-in {
+  opacity: 1;
+  transform: translateY(0);
+  animation: popIn 0.5s ease forwards;
+}
+
+@keyframes popIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+

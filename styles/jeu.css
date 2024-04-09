@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2e8e4;
+    color: #5A1A29;
+    text-align: center;
+    margin: 0;
+    height: 100vh; /* Assure que le body prend toute la hauteur de la fenêtre */
+    display: flex;
+    flex-direction: column; /* Organise les enfants en colonne */
+    justify-content: flex-start; /* Alignement vertical au début */
+    align-items: stretch; /* Les enfants s'étendent pour occuper toute la largeur */
+}
+
+header, footer {
+    background-color: #5A1A29;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #8d3c4f;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex-grow: 1; /* Prend tout l'espace disponible, poussant le footer vers le bas */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre le contenu de main verticalement */
+    align-items: center; /* Centre le contenu de main horizontalement */
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2e8e4;
+    color: #5A1A29;
+    text-align: center;
+    margin: 0; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.question-card {
+    background-color: white;
+    margin: 20px auto; /* Centre la carte horizontalement */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Définir une largeur fixe pour les cartes */
+    height: auto; /* Hauteur ajustée en fonction du contenu */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+#quiz-container {
+    max-width: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%; /* Assure que l'image ne dépasse pas de la carte */
+    height: auto; /* Maintient le rapport d'aspect */
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #5A1A29;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #7A2A39;
+}

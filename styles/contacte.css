@@ -204,3 +204,15 @@ footer a {
 footer a:hover {
     text-decoration: underline; 
 }
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    color: green;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
