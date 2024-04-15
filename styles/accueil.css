@@ -1,0 +1,155 @@
+/*Styel generaux*/
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #5A1A29;
+}
+
+/*contenu principake*/
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.hero-image {
+    width: 50%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    opacity: 0.8;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f2e8e4;
+    animation: slideIn 1s ease-out;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.feature-item {
+    width: 30%;
+    text-align: center;
+    animation: fadeIn 2s;
+}
+
+.feature-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.feature-item img:hover {
+    transform: scale(1.05);
+}
+
+.reservation button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #8d3c4f;
+    color: #f2e8e4;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.reservation button:hover {
+    background-color: #5A1A29;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+
+
+/*style du header et du footer*/
+
+footer, header {
+    background-color: #5A1A29;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Georgia', serif; 
+    font-size: 3em; 
+    font-weight: bold; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    letter-spacing: 2px; /* Intégré dans la déclaration existante */
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #8d3c4f;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer a {
+    color: #FFD700; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
