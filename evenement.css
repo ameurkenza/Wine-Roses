@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f2e8e4;
     color: #333;
     line-height: 1.6;
 }
@@ -200,3 +200,4 @@ figure img {
 figure img:hover {
     transform: scale(1.05); /* Slightly enlarges the image on hover */
 }
+
