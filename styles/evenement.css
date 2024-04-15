@@ -1,122 +1,202 @@
-/*style pour le header*/
-
-
-header {
-    background: #5A1A29;
-    color: #ffffff;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-header h1 {
+/* Basic Reset */
+* {
     margin: 0;
-    padding: 20px 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease; /* Transition for smoother color changes */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(160deg, #400014 0%, #600020 100%); /* Gradient for a richer header */
+    color: white;
+    padding: 1rem 0;
     text-align: center;
-    font-family: 'Georgia', serif; 
-    font-size: 3em; 
-    font-weight: bold; 
-    color: #ffffff; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+/* Navigation Menu Styling */
+nav {
+    text-align: center;
+    margin-top: 1rem;
 }
 
 nav ul {
     list-style: none;
-    background-color: #5A1A29;
-    text-align: center;
-    padding: 10px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 5px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    text-decoration: none;
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    display: inline-block;
+    background-color: transparent; /* Ensures clickable area is consistent */
+    border-radius: 5px; /* Rounded corners for aesthetic */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
-nav ul li a:hover {
-    background-color: #8d3c4f;
+nav ul li a:hover,
+nav ul li a[aria-current="page"] {
+    background-color: #400014;
 }
 
-
-
-
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #fff0f0; 
+/* Responsive Menu for Smaller Screens */
+.hamburger-checkbox {
+    display: none; /* Hidden by default */
 }
-main h1 {
-    font-weight: bold; 
-    text-align: center; 
-    color: #A52A2A; 
-    
+
+@media (max-width: 768px) {
+    .hamburger-checkbox {
+        display: block; /* Show checkbox on small screens */
+    }
+    .hamburger-checkbox:checked + ul {
+        display: block;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li {
+        margin-bottom: 10px;
+    }
 }
-.content img {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
-}    
-.content {
-    width: 80%;
-    margin: 20px auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+/* Event Box Styling */
+.event-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    grid-gap: 1rem;
 }
-.event {
-    background: #fdf1f2; 
-    padding: 15px;
+
+.event-box {
+    background: white;
+    padding: 1.5rem;
     margin-bottom: 20px;
-    border-left: 5px solid #910a20; 
-}
-.event h3 {
-    color: #333333;
-    margin: 0 0 10px 0;
-}
-.event time {
-    display: block;
-    margin-bottom: 10px;
-    font-style: italic;
-    color: #555555;
-}
-.event p {
-    margin: 0;
-    color: #666666;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transformations for hover */
 }
 
-
-/*style pour le footer*/
-
-
-
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
+.event-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-footer a {
-    color: #FFD700; 
-    text-decoration: none; 
+/* Content Styling */
+h1, h2, h3, p, figcaption {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Subtle text shadow for readability */
 }
 
-footer a:hover {
-    text-decoration: underline; 
-}
-footer {
-    background-color: #5A1A29;
-    color: #fff;
-    padding: 20px;
+h2 {
+    font-size: 2.2rem;
+    margin: 20px 0;
     text-align: center;
+}
+
+figure {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 900px;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    color: #600020;
+    margin-top: 8px;
+}
+
+/* Buttons and Footer */
+button {
+    background-color: #600020;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #400014;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Input Styling */
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="number"], textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+}
+
+/* Event Title Animation */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);  /* Adjusted for a subtle movement */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#events-heading {
+    animation: fadeInDown 1s ease forwards;
+}
+
+/* Image Transition Styling */
+figure img {
+    width: 50%; /* Responsive image settings */
+    height: auto;
+    border-radius: 8px; /* Rounded corners for the image */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for transform changes */
+}
+
+figure img:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
 }
