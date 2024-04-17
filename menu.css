@@ -1,0 +1,169 @@
+/*style pour le header*/
+
+header {
+    background: #5A1A29;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Georgia', serif; 
+    font-size: 3em; 
+    font-weight: bold; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+header h1 {
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #5A1A29;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #8d3c4f;
+}
+
+/*style pour le contenu principal*/
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #8d3c4f;
+    color: #5A1A29;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    padding: 20px;
+    background-color: #f2e8e4;
+    color: #fff;
+}
+
+main h2 {
+    background-color: #5A1A29;
+    color: #f2e8e4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main article {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #5A1A29;
+    padding-bottom: 10px;
+}
+
+main h3 {
+    color: #5A1A29;
+    margin-top: 0;
+}
+
+main p {
+    margin-bottom: 0;
+    color: #5A1A29;
+    font-style: italic;
+}
+
+section {
+    margin-bottom: 40px;
+
+}
+
+
+article img {
+    display: none;
+    width: 300px; 
+    position: absolute; 
+    z-index: 100; 
+    left: 100%
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+ }
+
+article h3:hover + img {
+    display: block;
+}
+
+/*style pour le footer*/
+
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #FFD700; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+footer {
+    background-color: #5A1A29;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item {
+    transition: background-color 0.3s ease, font-size 0.3s ease;
+    position: relative; /* Pour positionner absolument la description */
+    cursor: pointer;
+  }
+  
+  /* Commencez par définir la keyframe pour l'animation */
+@keyframes slideInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Classe CSS pour animer l'entrée */
+  .animate-title {
+    animation: slideInFromLeft 1s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-item {
+    opacity: 0; /* Démarrez les éléments invisibles pour que l'animation soit visible */
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; /* Maintenez l'état final après la fin de l'animation */
+  }
+  
