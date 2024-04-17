@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #5A1A29;
+    background-color: #f2e8e4;
+}
+
+header, footer {
+    background-color: #5A1A29;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #8d3c4f;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+#welcome-message {
+    display: block; /* Utilise display:block au lieu de flex pour le conteneur */
+    text-align: center; /* Centre le texte horizontalement */
+    margin: 40px 0; /* Ajoute de l'espace au-dessus et en dessous du texte de bienvenue */
+    /* Pas besoin de height: 100vh; ici */
+}
+
+#welcome-message span {
+    opacity: 0; /* Démarre invisible pour l'animation */
+    font-size: 4em; /* Taille du texte ajustée */
+    font-weight: bold; /* Rend le texte plus gras */
+    color: #8d34c4f; /* Couleur du texte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre portée pour du relief */
+    font-family: 'Times New Roman', serif; /* Police de caractères */
+    transition: opacity 2s ease, transform 2s ease; /* Animations pour l'opacité et la transformation */
+    transform: translateY(-20px); /* Commence légèrement en haut pour animer vers le bas */
+    display: inline-block; /* Garde le span en ligne */
+    margin: 0 5px; /* Ajoute un petit espace entre les lettres/spans si nécessaire */
+}
+
+
+
+
+
+
+
+/* Container pour les cartes */
+.card-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style général pour toutes les cartes */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styles pour la grande carte centrale */
+.large-card {
+    width: 40%; /* Vous pouvez ajuster cette valeur */
+    margin: 20px auto; /* Centrage de la carte */
+    display: block; /* Cette carte prendra une ligne entière pour elle seule */
+} 
+
+
+/* Styles pour les petites cartes */
+.small-card {
+    width: 28%; /* Vous pouvez ajuster cette valeur pour la taille des petites cartes */
+    display: inline-block; /* Alignement côte à côte */
+    margin: 0 1%; /* Espacement autour des petites cartes */
+    vertical-align: top; /* Alignement en haut pour être au même niveau que les autres cartes */
+}
+
+/* Row pour les petites cartes */
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px; /* Ajoutez cette ligne avec la marge souhaitée */
+}
+
+/* Contenu à l'intérieur de chaque carte */
+.card-content {
+    padding: 15px;
+    display: flex; /* Nouveau */
+    flex-direction: column; /* Nouveau */
+    justify-content: center; /* Nouveau */
+    align-items: center; /* Nouveau */
+    
+}
+
+/* Style amélioré pour les titres dans les cartes */
+.card h3 {
+    font-size: 2.5em; /* Taille de police plus grande */
+    color: #8d3c4f; /* Couleur personnalisée, à ajuster selon votre palette de couleurs */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre portée pour du relief */
+    margin: 10px 0; /* Ajuste l'espacement autour du titre si nécessaire */
+}
+.card-content p {
+    font-size: 1.5em; /* Augmente la taille de la police */
+    text-align: center; /* Centre le texte */
+    margin: 10px 0; /* Ajuste l'espacement autour du paragraphe si nécessaire */
+    line-height: 1.5; /* Ajuste l'espacement des lignes pour une meilleure lisibilité */
+}
+
+
+/* Style pour les images à l'intérieur des cartes */
+.card img {
+    width: 100%; /* Les images rempliront la largeur de leurs cartes respectives */
+    border-radius: 10px 10px 0 0; /* Arrondit les coins supérieurs des images pour suivre la forme de la carte */
+    height: auto; /* Permet de maintenir le ratio d'aspect de l'image */
+}
+
+/* Media query pour les petits écrans */
+@media (max-width: 768px) {
+    .large-card, .small-card {
+        width: 90%; /* Cartes plus larges sur mobile pour une meilleure visibilité */
+        margin: 10px auto; /* Espacement en haut et en bas, et centrage horizontal */
+    }
+    
+    .card-row {
+        display: block; /* Les cartes s'empilent verticalement sur de petits écrans */
+    }
+}
+
+/* Style pour le bouton Réserver */
+.reservation-button {
+    text-align: center; /* Centre le bouton horizontalement */
+    margin: 20px 0; /* Ajoute un espace au-dessus et en dessous du bouton */
+}
+
+/* Style pour le texte d'invite à la réservation */
+.reservation-invite h2 {
+    text-align: center; /* Centre le texte horizontalement */
+    color: #5A1A29; /* Couleur du texte */
+    margin: 20px 0 10px; /* Espacement autour du texte */
+}
+
+/* Ajoutez également le style pour .reservation-button si ce n'est pas déjà fait */
+.reservation-button {
+    text-align: center; /* Centre le bouton horizontalement */
+    margin: 10px 0 20px; /* Ajoute un espace au-dessus et en dessous du bouton */
+}
+.reservation-invite {
+    margin-top: 40px; /* ou la valeur que vous avez déjà choisie */
+    margin-bottom: 60px; /* Ajoutez cette ligne avec la marge souhaitée */
+}
+
+
+
+
+
+.btn {
+    
+    padding: 15px 30px;
+    background-color: #8d3c4f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    animation: floating 3s ease-in-out infinite;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #a25068;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    /* Retirer la propriété transform ici */
+}
+
