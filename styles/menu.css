@@ -161,9 +161,9 @@ footer {
   }
   
   .animate-item {
-    opacity: 0; /* Démarrez les éléments invisibles pour que l'animation soit visible */
+    opacity: 0; v
     animation-name: fadeIn;
     animation-duration: 0.5s;
-    animation-fill-mode: forwards; /* Maintenez l'état final après la fin de l'animation */
+    animation-fill-mode: forwards; 
   }
   

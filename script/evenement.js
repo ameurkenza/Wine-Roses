@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         box.addEventListener('click', () => {
             box.classList.toggle('active');
-            const details = box.querySelector('.event-details'); // Assumes event details are direct children
+            const details = box.querySelector('.event-details'); 
             if (details) {
                 details.classList.toggle('active');
             }
