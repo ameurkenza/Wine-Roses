@@ -22,7 +22,7 @@ Après notre deuxième évaluation, où nous avons présenté six pages HTML ave
 
 Voici quelques captures d'écran de notre site :
 
-![Page d'accueil](/pics/page d'accueil.png "Page d'accueil Wine & Roses")
+![Page d'accueil](/pics/paged'accueil.png "Page d'accueil Wine & Roses")
 
 ![Menu](/pics/menu.png "Menu du restaurant Wine & Roses")
 
