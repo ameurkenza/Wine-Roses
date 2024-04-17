@@ -23,4 +23,4 @@ Après notre deuxième évaluation, où nous avons présenté six pages HTML ave
 
 ![Jeu Quiz](/pics/quiz.png "Jeu Quiz Wine & Roses")
 
-## Développer par  Kenza Ameur, Alexie Charland et Olivier Roberge
+## Développé par  Kenza Ameur, Alexie Charland et Olivier Roberge
