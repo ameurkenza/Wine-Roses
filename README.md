@@ -18,12 +18,7 @@ Après notre deuxième évaluation, où nous avons présenté six pages HTML ave
 - **Gagnez des Codes Promo**: En réponse à l'enthousiasme suscité par notre restaurant, nous avons intégré une page de jeu sous forme de quiz. Les participants ont la chance de gagner des codes promotionnels en répondant correctement aux questions sur le vin et la gastronomie.
 - **Éducation et Plaisir**: Ce quiz offre non seulement des récompenses, mais aussi une expérience éducative, permettant aux utilisateurs d'apprendre davantage sur les accords mets-vins.
 
-## Aperçu du Site
 
-Voici quelques captures d'écran de notre site :
 
-![Page d'accueil](/pics/paged'accueil.png "Page d'accueil Wine & Roses")
-
-![Menu](/pics/menu.png "Menu du restaurant Wine & Roses")
 
 ![Jeu Quiz](/pics/quiz.png "Jeu Quiz Wine & Roses")
