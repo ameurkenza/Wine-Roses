@@ -131,3 +131,39 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+.menu-item {
+    transition: background-color 0.3s ease, font-size 0.3s ease;
+    position: relative; /* Pour positionner absolument la description */
+    cursor: pointer;
+  }
+  
+  /* Commencez par définir la keyframe pour l'animation */
+@keyframes slideInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Classe CSS pour animer l'entrée */
+  .animate-title {
+    animation: slideInFromLeft 1s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-item {
+    opacity: 0; /* Démarrez les éléments invisibles pour que l'animation soit visible */
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; /* Maintenez l'état final après la fin de l'animation */
+  }
+  

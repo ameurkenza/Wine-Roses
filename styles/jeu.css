@@ -6,11 +6,11 @@ body {
     color: #5A1A29;
     text-align: center;
     margin: 0;
-    height: 100vh; /* Assure que le body prend toute la hauteur de la fenêtre */
+    height: 100vh; 
     display: flex;
-    flex-direction: column; /* Organise les enfants en colonne */
-    justify-content: flex-start; /* Alignement vertical au début */
-    align-items: stretch; /* Les enfants s'étendent pour occuper toute la largeur */
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: stretch; 
 }
 
 header, footer {
@@ -65,11 +65,11 @@ footer a:hover {
 }
 
 main {
-    flex-grow: 1; /* Prend tout l'espace disponible, poussant le footer vers le bas */
+    flex-grow: 1; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centre le contenu de main verticalement */
-    align-items: center; /* Centre le contenu de main horizontalement */
+    justify-content: center; 
+    align-items: center; 
 }
 
 
@@ -94,12 +94,12 @@ body {
 
 .question-card {
     background-color: white;
-    margin: 20px auto; /* Centre la carte horizontalement */
+    margin: 20px auto; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px; /* Définir une largeur fixe pour les cartes */
-    height: auto; /* Hauteur ajustée en fonction du contenu */
+    width: 400px; 
+    height: auto; 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -119,8 +119,8 @@ body {
 }
 
 .card img {
-    max-width: 100%; /* Assure que l'image ne dépasse pas de la carte */
-    height: auto; /* Maintient le rapport d'aspect */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .hidden {
